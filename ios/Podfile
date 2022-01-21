@@ -12,6 +12,10 @@ target 'Ome' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-date-picker', :path => '../node_modules/react-native-date-picker'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   target 'OmeTests' do
     inherit! :complete
     # Pods for testing
