@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
     container: {
         paddingVertical: scaleHeight(20),
         paddingHorizontal: scaleWidth(25),
-        backgroundColor: COLORS.RGB_245_245_245,
+        backgroundColor: COLORS.RGB_240_240_240,
         flex: 1
 
     },
@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
         height: scaleHeight(45),
         lineHeight: dynamicSize(22),
         fontFamily: FONTS.WorkSansRegular,
-        color: COLORS.RGB_46_46_46,
+        color: 'black',
         fontSize: normalizeFont(15),
         marginTop: 5
     },
@@ -112,7 +112,8 @@ export const styles = StyleSheet.create({
     },
     subtitle: {
         fontSize: normalizeFont(11),
-        fontFamily: FONTS.QuicksandMedium500
+        fontFamily: FONTS.QuicksandMedium500,
+        color: 'black'
 
     },
     subtitle2: {
@@ -140,7 +141,8 @@ export const styles = StyleSheet.create({
         height: 40,
         alignSelf: 'flex-start',
         marginLeft: 10,
-        width: dynamicSize(280)
+        width: dynamicSize(280),
+        color: 'black'
         // width: width / 1.6,
 
     },

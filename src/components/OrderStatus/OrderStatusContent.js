@@ -59,7 +59,7 @@ const OrderStatusContent = ({
                             style={styles.searchtext}
                             placeholder="Search"
                             value={textValue}
-                            placeholderTextColor={COLORS.RGB_179_179_179}
+                            placeholderTextColor={'black'}
                             onChangeText={onsearchFilterFunction}
                         />
                     </View>
@@ -105,6 +105,7 @@ const OrderStatusContent = ({
                                         keyboardType={'default'}
                                         secureTextEntry={false}
                                         placeholder={'Enter Title'}
+                                        placeholderTextColor={'black'}
                                     />
                                 </View>
                                 <View style={{
@@ -124,6 +125,7 @@ const OrderStatusContent = ({
                                         keyboardType={'default'}
                                         secureTextEntry={false}
                                         placeholder={'Enter Restro Title'}
+                                        placeholderTextColor={'black'}
                                     />
                                 </View>
                                 <View><Text>{selectedDate}</Text></View>
